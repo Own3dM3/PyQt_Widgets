@@ -7,7 +7,7 @@ from PyQt5.QtCore import Qt, QTimer, QTime, QPoint
 class TransparentWidget(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Glass Effect Widget")
+        self.setWindowTitle("Time")
         self.setGeometry(100, 100, 400, 250)
 
         self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowStaysOnBottomHint)
