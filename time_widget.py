@@ -27,6 +27,7 @@ class TransparentWidget(QWidget):
             """
             background-color: rgba(30, 30, 30, 130);
             border-radius: 20px;
+            border: 2px solid white; /* Добавление обводки */
             """
         )
         self.background_widget.setGraphicsEffect(self.create_blur_effect())
